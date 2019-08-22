@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#20639b</color><!-- #008577 -->
+    <color name="colorPrimaryDark">#173f5f</color> <!-- #00574B -->
+    <color name="colorAccent">#f6d55c</color> <!--#D81B60-->
+    <color name="colorMagreza">#88EAE6</color>
+    <color name="colorSaudavel">#00924C</color>
+    <color name="colorSobrepeso">#D4C100</color>
+    <color name="colorObeso1">#D48b00</color>
+    <color name="colorObeso2">#D85700</color>
+    <color name="colorObeso3">#D80000</color>
+</resources>
