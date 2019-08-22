@@ -2,6 +2,7 @@ package com.example.imc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         //Vinculando os objetos com elementos de layout
         editText_altura = findViewById(R.id.edit_text_altura);
         editText_peso = findViewById(R.id.edit_text_peso);
@@ -88,5 +89,12 @@ public class MainActivity extends AppCompatActivity {
         {
             textView_imc.setText("Informe os valores corretamente!");
         }
+    }
+
+    public void trocaActivity(View v)
+    {
+        Intent telaInfo = new Intent(this, InfoActivity.class);
+        telaInfo.putExtra("RESULTADO","22.6");
+        startActivity(telaInfo);
     }
 }
